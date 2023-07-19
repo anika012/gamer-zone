@@ -210,7 +210,6 @@ nav img {
 .play-main-title {
     font-size: 3rem;
     font-weight: 700;
-    text-align: right;
 }
 
 .play-main-title h4 {
@@ -222,7 +221,6 @@ nav img {
 }
 
 .play-main-description {
-    text-align: end;
     color: #534C64;
     text-align: right;
     font-size: 1rem;
@@ -259,7 +257,7 @@ nav img {
     .menu-center>ul,
     .menu-container,
     .banner,
-    .game-cards {
+    .game-cards, .play-now-container {
         flex-direction: column;
         align-items: center;
     }
@@ -288,6 +286,27 @@ nav img {
     .banner-pictures img {
         max-width: 100%;
         height: auto;
+    }
+    .play-now-container {
+        display: inline-block;
+        margin: 0px 0px 0px 0px;
+    }
+    .game-play-pic {
+        position: relative;
+    }
+    .big-pic {
+        width: 300px;
+        position: absolute;
+        top: 0;
+        left: 50px;
+        z-index: 1;
+    }
+    .small-pic {
+        width: 120px;
+        position: absolute;
+        top: 210px;
+        left: 0px;
+        z-index: 2;
     }
 
     .menu-container {
