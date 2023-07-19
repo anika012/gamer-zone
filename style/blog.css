@@ -99,6 +99,7 @@ nav img {
     padding: 21px 40px;
     border: none;
     margin-top: 24px;
+    padding: 21px 40px;
 }
 
 .design {
@@ -148,6 +149,7 @@ nav img {
 .game-info {
     text-align: center;
     margin-top: 120px;
+    margin-bottom: 48px;
 }
 
 .game-title {
@@ -169,7 +171,6 @@ nav img {
 .game-description {
     color: #534C64;
     text-align: center;
-    font-family: Work Sans;
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -185,6 +186,48 @@ nav img {
     height: 400px;
 }
 
+.card-title {
+    font-size: 1rem;
+    color: #534C64;
+    font-weight: 500;
+}
+
+/* online games section end */
+
+/* play instantly section styles */
+
+
+.play-now-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.big-pic img {
+    width: 634px;
+}
+.small-pic {
+    width: 318.5px;
+}
+
+.middle-play-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.play-title-container {
+    max-width: 340px;
+    text-align: end;
+}
+
+.play-title {
+    margin: 10px 0px;
+}
+
+
+
+
 
 /* mobile device */
 
@@ -193,18 +236,27 @@ nav img {
     nav,
     .menu-center>ul,
     .menu-container,
-    .banner, .game-cards {
+    .banner,
+    .game-cards {
         flex-direction: column;
         align-items: center;
     }
-    .game-title, .fun-color {
+
+    .game-title,
+    .fun-color {
         font-size: 1.7rem;
     }
+
     .game-info {
         padding: 5px;
     }
+
     .game-info p {
         font-size: 1rem;
+    }
+
+    .card-title {
+        text-align: center;
     }
 
     .banner-items {
