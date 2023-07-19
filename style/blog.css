@@ -35,6 +35,7 @@ nav {
     font-size: 2.8rem;
     font-weight: 700;
 }
+
 .g-color {
     color: #FF42A5;
 }
@@ -75,15 +76,94 @@ nav img {
     height: 40px;
 }
 
+/* header section end */
+
+
+/* main part banner section */
+
+
+.banner li {
+    list-style: none;
+    color: #534C64;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-banner {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 21px 40px;
+    border: none;
+    margin-top: 24px;
+}
+
+.design {
+    background: #4EC5F7;
+}
+
+.banner {
+    background: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.banner-items {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 901px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.goat-title {
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(#F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+/* banner section end */
+
+
+/* section online games */
+
+
 
 
 /* mobile device */
 
 @media screen and (max-width:576px) {
-    nav, .menu-center>ul, .menu-container {
+
+    nav,
+    .menu-center>ul,
+    .menu-container, .banner {
         flex-direction: column;
         align-items: center;
     }
+    .banner-items {
+        width: 100%;
+    }
+    .banner-pictures img {
+        max-width: 100%;
+        height: auto;
+    }
+
     .menu-container {
         margin-bottom: 78px;
         margin-left: 40px;
