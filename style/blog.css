@@ -332,4 +332,18 @@ nav img {
     .menu-container {
         margin-bottom: 78px;
     }
+
+    .play-main-title {
+        font-size: 2.5rem;
+    }
+
+    .play-main-description {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .game-play-info {
+        margin-left: 40px;
+        padding: 20px;
+    }
 }
