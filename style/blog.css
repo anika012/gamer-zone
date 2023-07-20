@@ -197,10 +197,15 @@ nav img {
 /* play instantly section styles */
 
 .play-now-container {
+    max-width: 1330px;
+    height: 800px;
+}
+
+.play-now-container {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-right: 400px;
+    margin-right: 300px;
 }
 
 .game-play-info {
@@ -214,10 +219,14 @@ nav img {
 
 .play-main-title h4 {
     margin: 10px 0px;
+    text-align: end;
 }
 
 .colorful-title {
-    color: #FF42A5;
+    background: linear-gradient(180deg, #F948B2 20%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .play-main-description {
@@ -226,6 +235,7 @@ nav img {
     font-size: 1rem;
     font-weight: 400;
 }
+
 .play-main-description p {
     margin: 10px 0px;
 }
@@ -257,7 +267,8 @@ nav img {
     .menu-center>ul,
     .menu-container,
     .banner,
-    .game-cards, .play-now-container {
+    .game-cards,
+    .play-now-container {
         flex-direction: column;
         align-items: center;
     }
@@ -287,13 +298,21 @@ nav img {
         max-width: 100%;
         height: auto;
     }
+
     .play-now-container {
         display: inline-block;
         margin: 0px 0px 0px 0px;
+        height: 600px;
     }
+
+    .game-play-info {
+        margin-top: 30px;
+    }
+
     .game-play-pic {
         position: relative;
     }
+
     .big-pic {
         width: 300px;
         position: absolute;
@@ -301,6 +320,7 @@ nav img {
         left: 50px;
         z-index: 1;
     }
+
     .small-pic {
         width: 120px;
         position: absolute;
